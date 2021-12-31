@@ -1,5 +1,25 @@
-class Deck():
+from blackjack.game.card import Card
+import random
 
+suits = ("Hearts", "Diamonds", "Spades", "Clubs")
+ranks = (
+    "Two",
+    "Three",
+    "Four",
+    "Five",
+    "Six",
+    "Seven",
+    "Eight",
+    "Nine",
+    "Ten",
+    "Jack",
+    "Queen",
+    "King",
+    "Ace",
+)
+
+
+class Deck:
     def __init__(self):
         self.deck = []
 
